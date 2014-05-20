@@ -1,0 +1,20 @@
+<package>
+  <description brief="assignment2_040000815">
+
+     assignment2_040000815
+
+  </description>
+  <author>Mahmut</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/assignment2_040000815</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="arm_navigation_msgs"/>
+  <depend package="tf"/>
+  <depend package="geometry_msgs"/>
+
+</package>
+
+
