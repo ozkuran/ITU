@@ -3,11 +3,11 @@ library(RColorBrewer)
 
 tags <- read.csv("tags.csv", header = TRUE, sep = ",")
 
-png("wc.png")
+png("wc.png", width=1280, height=1280)
 pal = brewer.pal(9,"Blues")
 wordcloud(words = tags$tag, 
           freq = tags$count, 
-          colors=brewer.pal(6,"Dark2"),random.order=FALSE)
+          scale=c(16,1),colors=brewer.pal(6,"Dark2"),random.order=FALSE)
 dev.off()
 
 
