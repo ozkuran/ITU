@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<style>
+table, th, td {
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+
+	<wicket:panel wicket:id="topMenu">
+		topMenu
+	</wicket:panel>
+	
+<h2>Buildings List</h2>
+  <table >
+  	<tr>
+  		<th >Building Name</th><th >Building Type</th><th >Adress</th><th >City</th><th >Style</th><th >Architectural elements</th><th >Age</th><th>Latitude</th><th >Longtitude</th>
+   </tr>	
+    <tr wicket:id="BuildingsList">
+       	<td wicket:id="BuildingName">BuildingName</td><td wicket:id="BuildingType">BuildingType</td><td wicket:id="Adress">Adress</td><td wicket:id="City">City</td><td wicket:id="Style">Style</td><td wicket:id="architectural_elements">architectural_elements</td><td wicket:id="age">age</td><td wicket:id="Latitude">Latitude</td><td wicket:id="Longtitude">Longtitude</td>
+    </tr>
+  </table>
+    <footer>
+      <div class="container" id="datetime" wicket:id="datetime">
+         Wed Sep 4 15:32:40 EEST 2013
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  
+</body>
+</html>

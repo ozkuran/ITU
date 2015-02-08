@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<wicket:panel wicket:id="topMenu">
+		topMenu
+	</wicket:panel>
+	
+<h2>Edit Style</h2>
+<form action="#" wicket:id="StyleForm">
+	<table>
+		<tr>
+			<th>Name:</th>
+			<td><textarea  wicket:id="inname"   type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<th>Information:</th>
+			<td><textarea wicket:id="ininfo"  type="text"  rows="6" cols="50" ></textarea></td>
+		</tr>
+	</table>
+	<input value="Edit Style" name="Edit Style" type="submit"/>
+</form>
+    <footer>
+      <div class="container" id="datetime" wicket:id="datetime">
+         Wed Sep 4 15:32:40 EEST 2013
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  
+</body>
+</html>

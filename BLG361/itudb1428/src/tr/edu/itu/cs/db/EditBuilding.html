@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<wicket:panel wicket:id="topMenu">
+		topMenu
+	</wicket:panel>
+	
+<h2>Edit Building</h2>
+<form action="#" wicket:id="BuildingForm">
+<table>
+		<tr>
+			<th>Building name:</th>
+			<td><textarea wicket:id="bn" type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<th>Building type id:</th>
+			<td><textarea wicket:id="bti" type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<th>Address:</th>
+			<td><textarea wicket:id="address" type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<th>CityId:</th>
+			<td><textarea wicket:id="cityid" type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<th>Latitude:</th>
+			<td><textarea wicket:id="Latitude" type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<th>Longtitude:</th>
+			<td><textarea wicket:id="Longtitude" type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<th>StyleId:</th>
+			<td><textarea wicket:id="StyleId" type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<th>Architectural Element id:</th>
+			<td><textarea wicket:id="aei" type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<th>Age id:</th>
+			<td><textarea wicket:id="ageid" type="text"  rows="1" cols="50"></textarea></td>
+		</tr>
+	</table>
+	<input value="Edit Style" name="Edit Style" type="submit"/>
+</form>
+    <footer>
+      <div class="container" id="datetime" wicket:id="datetime">
+         Wed Sep 4 15:32:40 EEST 2013
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  
+</body>
+</html>

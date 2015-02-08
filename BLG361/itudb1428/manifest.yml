@@ -1,0 +1,8 @@
+applications:
+- name: itudb1428
+  host: itudb1428
+  disk: 1024M
+  path: itudb1428.war
+  domain: mybluemix.net
+  mem: 512M
+  instances: 1
