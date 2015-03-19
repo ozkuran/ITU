@@ -1,4 +1,0 @@
-
-Download video frames from:
-
-http://web.itu.edu.tr/basaranemrah/video_seq.zip
